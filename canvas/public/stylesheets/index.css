@@ -1,0 +1,30 @@
+body{
+  background-color: #fefefe;
+}
+.transition_3{
+  -webkit-transition:all .3s ease-in-out;
+  -moz-transition:all .3s ease-in-out;
+  -o-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out;
+}
+.routeLists{
+  width:90%;
+  margin:25px auto;
+}
+.routeLists li{
+  display: inline-block;
+  margin:5px 8px;
+}
+.routeLists li a{
+  display: block;
+  border:1px solid #FFDEAD;
+  background-color: #FFEBCD;
+  padding:5px 12px;
+  color:#333;
+  font-size:14px;
+}
+.routeLists li a:hover{
+  box-shadow: 0 5px 5px 1px #FDF5E6;
+  border:1px solid #D2691E;
+  color:#000;
+}
