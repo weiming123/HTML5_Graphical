@@ -1,0 +1,10 @@
+html,body{
+  background-color: #fefefe;
+  width:100%;
+  height: 100%;
+}
+.canvas{
+  display: block;
+  background-color: transparent;
+  margin:0 auto;
+}
